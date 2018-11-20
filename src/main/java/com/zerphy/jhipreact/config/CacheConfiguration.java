@@ -38,6 +38,7 @@ public class CacheConfiguration {
             cm.createCache(com.zerphy.jhipreact.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.zerphy.jhipreact.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.zerphy.jhipreact.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.zerphy.jhipreact.domain.Person.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
