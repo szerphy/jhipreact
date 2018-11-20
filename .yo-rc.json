@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.zerphy.jhipreact"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "monolith",
+    "baseName": "jhipreact",
+    "packageName": "com.zerphy.jhipreact",
+    "packageFolder": "com/zerphy/jhipreact",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YmNkMzNhYTg5OThmYjZmNWI5NTZiOGE1OTJiYmI4ODIyNzliMjU0NGU3NDU5Njk0YTJiN2M0NWNiNGU4OTU4MTk3Njk1NDk4ZTJlYTk5YTczYTM3MDhmNjY0ZjY5NzE2M2Y3NmExOGY1OTI2YTg5YzNkY2Y4M2YyODQ0MWZiYTA=",
+    "clientFramework": "react",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}
